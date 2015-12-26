@@ -56,4 +56,4 @@ for data in byHour.data:
 to_me = twil_client.messages.create(
 to = "+your cell",
 from_ = "+your twilio number",
-body = message)
+body = "\n" + message)
