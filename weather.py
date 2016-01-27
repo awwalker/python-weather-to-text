@@ -22,7 +22,7 @@ twil_client = TwilioRestClient(twil_api_account, twil_api_token)
 fore_api_key = "3906d93478a5bec947b1c43b1f896fa8"
 
 #local time adjusted with timezone
-current_time = datetime.now(pytz.timezone("US/Pacific-New"))
+current_time = datetime.now(pytz.timezone("US/Eastern"))
 
 #just date
 date = current_time.now().date()
